@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.searchButton{
+    padding: 3px 40px;
+    color: #32afd1;
+    border-radius: 55px;
+    border-color:rgb(82, 236, 242);
+    border-width: 3px;
+}
+
+
+.searchButtons:hover{
+    cursor: pointer;
+}
+
+.special{
+    background-color: #eff7f8;
+}
+
+.special:hover{
+    background-color: #45fff6;
+}
+
+.moreButtom{
+    margin-top: 5px;
+    color: white;
+    border-radius: 50%;
+    border-width: 0;
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    background-color: rgb(59, 231, 213);
+}
+.createAccount{
+    margin-top: 1%;
+    color: white;
+    background-color: blue;
+    padding: 9px 20px;
+    box-shadow: 5px 5px 2px 1px black;
+}
