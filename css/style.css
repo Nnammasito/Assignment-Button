@@ -1,10 +1,13 @@
-.buttomSearch, .buttomPlus, .buttomCreate {
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.searchButton, .plusButtom, .createButtom {
     display: block;
     margin-bottom: 10px;
     height: 40px;
 }
 
-.buttomSearch {
+.searchButton {
     font-weight: 900;
     width: 100px;
     border-radius: 20px;
@@ -13,7 +16,7 @@
     background-color: #fff;
 }
 
-.buttomPlus {
+.plusButtom {
     width: 40px;
     background-color: #00d1b2;
     color: #fff;
@@ -21,7 +24,7 @@
     border: none;
 }
 
-.buttomCreate {
+.createButtom {
     width: 150px;
     background-color: #2b78e4;
     color: #fff;
@@ -29,10 +32,7 @@
     box-shadow: 3px 3px black;
 }
 /*
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-}
+
 
 .searchButton{
     padding: 3px 40px;
